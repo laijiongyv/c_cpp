@@ -24,6 +24,7 @@ AVL的根节点指针指向该操作节点即可。
 平衡操作更加简单，具体实现方法可以参照 AVL.cpp 中的 balance_op 函数的实现。
 
 Makefile
+
 为了拥有运行数据，项目编写了简单的数据生成器（gengrator），源代码为data_generator.cpp
 如果您有自己的数据或者只想使用自己的数据，可以将 Makefile 文件中的 
 @./generator
